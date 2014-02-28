@@ -14,8 +14,8 @@
             <column name="name" type="varchar(50)">
                 <constraints nullable="false"/>
             </column>
-            <column name="type" type="int" defaultValueInteger="0"/>
-            <column name="phase" type="int" defaultValueInteger="0"/>
+            <column name="type" type="int" defaultValue="0"/>
+            <column name="phase" type="int" defaultValue="0"/>
         </createTable>
     </changeSet>
 
